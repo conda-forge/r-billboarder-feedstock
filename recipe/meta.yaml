@@ -1,4 +1,4 @@
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/billboarder_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/billboarder/billboarder_{{ version }}.tar.gz
-  sha256: 1dac002c16db771582bb68874bf2df4dc1acc79675eabe63869c6582de7e36a1
+  sha256: 198ac5a1473cd754be0e645c3737ee1bb1443d6314ad6411365d39efdd618ad2
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
