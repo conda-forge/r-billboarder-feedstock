@@ -1,11 +1,11 @@
-About r-billboarder
-===================
+About r-billboarder-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-billboarder-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dreamRs/billboarder
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-billboarder-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides an 'htmlwidgets' interface to 'billboard.js', a re-usable easy interface JavaScript chart library, based on D3 v4+. Chart types include line charts, scatterplots, bar/lollipop charts, histogram/density plots, pie/donut charts and gauge charts. All charts are interactive, and a proxy method is implemented to smoothly update a chart without rendering it again in 'shiny' apps.
 
