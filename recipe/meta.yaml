@@ -1,4 +1,4 @@
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/billboarder_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/billboarder/billboarder_{{ version }}.tar.gz
-  sha256: ca8cbc090a68ca748ed0fdb48ff3d3802bd9ed18a5e33a6fee1ab292e767f11e
+  sha256: 3423c5db98760cb4f5b31330f28e6a4ab548b374dab46fb9d361ce61d485771f
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -48,8 +48,8 @@ test:
 about:
   home: https://github.com/dreamRs/billboarder
   license: MIT
-  summary: Provides an 'htmlwidgets' interface to 'billboard.js', a re-usable easy interface JavaScript chart library, based on D3 v4+. Chart types include line charts, scatterplots, bar/lollipop charts, histogram/density plots, pie/donut charts and gauge charts. All charts are interactive, and a proxy method is implemented
-    to smoothly update a chart without rendering it again in 'shiny' apps.
+  summary: Provides an 'htmlwidgets' interface to 'billboard.js', a re-usable easy interface JavaScript chart library, based on D3 v4+. Chart types include line charts, scatterplots, bar/lollipop charts, histogram/density plots, pie/donut charts and gauge charts. All charts are interactive, and a proxy method is 
+    implemented to smoothly update a chart without rendering it again in 'shiny' apps.
   license_family: MIT
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
