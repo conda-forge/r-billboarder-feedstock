@@ -1,4 +1,4 @@
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/billboarder_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/billboarder/billboarder_{{ version }}.tar.gz
-  sha256: 3423c5db98760cb4f5b31330f28e6a4ab548b374dab46fb9d361ce61d485771f
+  sha256: e07f0b35680d8e29bedf8caa0d5ea3d35052caf569d37a8dbf6513bb947c5ecc
 
 build:
   number: 0
